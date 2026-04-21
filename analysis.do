@@ -70,10 +70,10 @@ label variable case_type_combo "Litigant combination (plaintiff vs defendant)"
 
 // Commands for Graphs
 // Mean comparison (defendant)
-graph bar (mean) dur_months, over(def_party) bar(1, color(navy)) bar(2, color(maroon)) title("Mean Duration by Defendant Type") ytitle("Months")
+graph bar (mean) dur_months, over(def_party) asyvars bar(1, color(navy)) bar(2, color(maroon)) title("Mean Duration by Defendant Type") ytitle("Months")
 
 // Mean comparison (plaintiff)
-graph bar (mean) dur_months, over(plaint_party) bar(1, color(navy)) bar(2, color(maroon)) title("Mean Duration by Plaintiff Type") ytitle("Months")
+graph bar (mean) dur_months, over(plaint_party) asyvars bar(1, color(navy)) bar(2, color(maroon)) title("Mean Duration by Plaintiff Type") ytitle("Months")
 
 // general boxplot
 graph box dur_months, over(case_type_combo, label(angle(30))) asyvars box(1, color(navy)) box(2, color(maroon)) box(3, color(forest_green)) box(4, color(orange)) medtype(cline) medline(lcolor(black)) title("Case Duration by Litigant Combination") ytitle("Duration (Months)") note("Format: Plaintiff vs Defendant")
