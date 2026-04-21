@@ -62,7 +62,7 @@ Set the working directory to the folder containing both the dataset and the DO-f
 cd "path_to_your_unzipped_folder"
 ```
 
-Example: cd "C:\Users\YourName\Downloads\karachi-judiciary-case-duration-analysis" (for Windows)
+Example: cd "C:\Users\YourName\Downloads\karachi-judiciary-case-duration-analysis" (for Windows) \
          cd "/Users/YourName/Downloads/karachi-judiciary-case-duration-analysis" (for MacOS)
 
 ---
